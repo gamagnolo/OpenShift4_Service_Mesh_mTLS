@@ -22,3 +22,6 @@ Apply a STRICT mTLS Service Mesh to a microservices-based Cloud Native applicati
    [$4] NAME OF THE NAMESPACE THAT WILL CONTAIN THE APPS ON WHICH TO APPLY THE MESH <br/>
    [$5] NAME OF THE NAMESPACE WHERE THE SERVICE MESH CONTROL PLANE WILL BE INSTALLED <br/>
 
+2. Verify through Kiali dashboard the correct deployment of the Service Mesh
+
+3. Verify through Grafana dashboard that traffic between microservices is encrypted by mTLS mode (padlock icon)
