@@ -1,0 +1,20 @@
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: productpage-virtualservice
+spec:
+  hosts:
+  - productpage.apps.cluster-9d16.9d16.sandbox67.opentlc.com
+  gateways:
+  - bookretail-istio-system/productpage-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /
+    route:
+    - destination:
+        port:
+          number: 9080
+        host: productpage.bookinfo.svc.cluster.local
+
