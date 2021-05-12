@@ -26,7 +26,7 @@ Apply a STRICT mTLS Service Mesh to a microservices-based Cloud Native applicati
 
 3. Verify through Grafana dashboard that traffic between microservices is encrypted by mTLS mode (padlock icon)
 
------------------ WORK IN PROGRESS --------------------------------------------------------------------------------
-Automation and abstraction via parametrization/scripts (certificates, appliance to own microservices/apps, etc etc)
-GOAL: automate the creation and the appliance of a mTLS Service Mesh to your own desired microservices/apps
------------------ WORK IN PROGRESS --------------------------------------------------------------------------------
+----------------- WORK IN PROGRESS -------------------------------------------------------------------------------- <br/>
+Automation and abstraction via parametrization/scripts (certificates, appliance to own microservices/apps, etc etc). <br/>
+GOAL: automate the creation and the appliance of a mTLS Service Mesh to your own desired microservices/apps <br/>
+----------------- WORK IN PROGRESS -------------------------------------------------------------------------------- <br/>
