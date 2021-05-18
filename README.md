@@ -22,13 +22,13 @@ Apply a STRICT mTLS Service Mesh to a microservices-based Cloud Native applicati
 
 1. Launch the automation_script.sh with the following parameters:
   ``` 
-  sh automation_script.sh <$1> <$2> <$3> <$4> <$5>
+  ./automation_script.sh $1 $2 $3 $4 $5
   ```
-   <$1> = < OCP CLUSTER MASTER API > <br/>
-   <$2> = < OCP ADMIN USER > <br/>
-   <$3> = < OCP ADMIN PWD > <br/>
-   <$4> = < NAME OF THE NAMESPACE THAT WILL CONTAIN THE APPS ON WHICH TO APPLY THE MESH > <br/>
-   <$5> = < NAME OF THE NAMESPACE WHERE THE SERVICE MESH CONTROL PLANE WILL BE INSTALLED > <br/>
+   $1 = < OCP CLUSTER MASTER API > <br/>
+   $2 = < OCP ADMIN USER > <br/>
+   $3 = < OCP ADMIN PWD > <br/>
+   $4 = < NAME OF THE NAMESPACE THAT WILL CONTAIN THE APPS ON WHICH TO APPLY THE MESH > <br/>
+   $5 = < NAME OF THE NAMESPACE WHERE THE SERVICE MESH CONTROL PLANE WILL BE INSTALLED > <br/>
 
 2. Verify through Kiali dashboard the correct deployment of the Service Mesh
 
