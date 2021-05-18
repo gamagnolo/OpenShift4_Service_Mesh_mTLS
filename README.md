@@ -2,6 +2,8 @@
 Automatically (via scripts) install, deploy and apply a STRICT mTLS OpenShift Service Mesh to a microservices-based Cloud Native application (https://istio.io/latest/docs/examples/bookinfo).
 Observe the near real-time encrypted traffic flowing bidirectionally within the Mesh via Grafana dashboard and the Mesh topology/configuration via Kiali dashboard.
 
+![Microservices traffic without Mesh](https://github.com/gamagnolo/openshift-4-service-mesh-mtls/blob/main/images/noistio.svg)
+
 ## Environment
 OpenShift 4.x
 
@@ -10,6 +12,7 @@ OpenShift 4.x with Operators ElasticSearch, Jaeger, Kiali, Service Mesh installe
 
 ## Goals
 Apply a STRICT mTLS Service Mesh to a microservices-based Cloud Native application
+![Microservices traffic within Mesh](https://github.com/gamagnolo/openshift-4-service-mesh-mtls/blob/main/images/withistio.svg)
 
 ## Steps
 0. Ensure OCP 4.x cluster is up and running and Prerequisites are met
